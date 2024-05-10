@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1> Weather </h1>
-        <Weather defaultCity="search your city....." />
+        <h1> Weather App </h1>
+        <Weather defaultCity="search your city" />
         <footer>
           This project was coded by{"Sadaf H"}
           <a
@@ -24,7 +24,7 @@ function App() {
             rel="noreferrer"
           >
             {" "}
-            open-sourced on Github{" "}
+            open-sourced on Github{"github"}
           </a>
         </footer>
       </div>
