@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1> Weather </h1>
-        <Weather defaultCity=" " />
+        <h1> Weather App </h1>
+        <Weather defaultCity="" />
         <footer>
           This project was coded by{"Sadaf H"}
           <a
