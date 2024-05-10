@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1> Weather </h1>
-        <Weather defaultCity=" " />
+        <Weather defaultCity="search your city....." />
         <footer>
           This project was coded by{"Sadaf H"}
           <a
