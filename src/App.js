@@ -1,16 +1,15 @@
 import React from "react";
 import Weather from "./Weather";
-import './App.css';
+import "./App.css";
 
 function App() {
-  return <div className="App">
-    <div className="container">
-
-
-   <h1> Weather App </h1>
-   <Weather defaultCity="Search your city"/>
-    <footer>
-      This project was coded by{"Sadaf H"}
+  return (
+    <div className="App">
+      <div className="container">
+        <h1> Weather App </h1>
+        <Weather defaultCity="Tehran" />
+        <footer>
+          This project was coded by{"Sadaf H"}
           <a
             href="https://github.com/sdaz9087"
             target="_blank"
@@ -25,7 +24,8 @@ function App() {
             rel="noreferrer"
           >
             {" "}
-            open-sourced on Github </a>
+            open-sourced on Github
+          </a>
         </footer>
       </div>
     </div>
@@ -33,4 +33,3 @@ function App() {
 }
 
 export default App;
-      
